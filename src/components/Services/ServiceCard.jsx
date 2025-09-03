@@ -1,3 +1,4 @@
+// --- src/components/Services/ServiceCard.jsx ---
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './ServiceCard.module.css';
@@ -21,7 +22,7 @@ const ServiceCard = ({ title, description, linkText, linkTo, imageUrl, index }) 
       },
       {
         // The animation will trigger when 65% of the element is visible
-        threshold: 0.3,
+        threshold: 0.6,
       }
     );
 
@@ -72,4 +73,3 @@ const ServiceCard = ({ title, description, linkText, linkTo, imageUrl, index }) 
 };
 
 export default ServiceCard;
-

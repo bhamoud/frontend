@@ -38,7 +38,7 @@ const Header = ({ isMenuOpen, toggleMenu }) => {
           <nav className={styles.navDesktop}>
             <Link to="/about" className={styles.navLink}>{t('header.nav_group')}</Link>
             <Link to="/diensten" className={styles.navLink}>{t('header.nav_services')}</Link>
-            <a href="#werkenbij" className={styles.navLink}>{t('header.nav_careers')}</a>
+            <Link to="werken-bij" className={styles.navLink}>{t('header.nav_careers')}</Link>
             <a href="#nieuws" className={styles.navLink}>{t('header.nav_news')}</a>
             <a href="#contact" className={styles.navLink}>{t('header.nav_contact')}</a>
 
@@ -71,7 +71,7 @@ const Header = ({ isMenuOpen, toggleMenu }) => {
         <div className={styles.mobileMenu}>
           <Link to="/about" className={styles.mobileNavLink} onClick={closeAllMenus}>{t('header.nav_group')}</Link>
           <Link to="/diensten" className={styles.mobileNavLink} onClick={closeAllMenus}>{t('header.nav_services')}</Link>
-          <a href="#werkenbij" className={styles.mobileNavLink} onClick={closeAllMenus}>{t('header.nav_careers')}</a>
+            <Link to="werken-bij" className={styles.mobileNavLink} onClick={closeAllMenus}>{t('header.nav_careers')}</Link>
           <a href="#nieuws" className={styles.mobileNavLink} onClick={closeAllMenus}>{t('header.nav_news')}</a>
           <a href="#contact" className={styles.mobileNavLink} onClick={closeAllMenus}>{t('header.nav_contact')}</a>
           {/* Taal-selector */}

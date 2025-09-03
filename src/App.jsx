@@ -16,9 +16,10 @@ import ServicesPage from './pages/ServicesPage';
 import AccountancyPage from './pages/Services/AccountancyPage';
 import TaxLegalPage from './pages/Services/TaxLegalPage';
 import ScrollToTop from './components/Utils/ScrollToTop';
+import StrategicAdvicePage from './pages/Services/StrategicAdvicePage';
+import CareerPage from './pages/CareerPage';
 import './styles/animations.css';
 import './styles/alternating-animations.css';
-import StrategicAdvicePage from './pages/Services/StrategicAdvicePage';
 
 export default function App() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,6 +40,7 @@ export default function App() {
                     <Route path="/diensten/accountancy" element={<AccountancyPage />} /> {/* Route voor de about pagina */}
                     <Route path="/diensten/tax-legal" element={<TaxLegalPage />} /> {/* Route voor de about pagina */}
                     <Route path="/diensten/strategic" element={<StrategicAdvicePage />} /> {/* Route voor de about pagina */}
+                    <Route path="/werken-bij" element={<CareerPage />} /> {/* <-- Nieuwe route */}
                     {/* Hier kun je later meer routes toevoegen */}
                 </Routes>
             </main>

@@ -184,7 +184,47 @@
       "text": "Een goede planning van uw nalatenschap zorgt voor rust en duidelijkheid, zowel voor u als voor uw nabestaanden. Wij brengen uw vermogen en wensen in kaart en adviseren over de optimale structurering via testamenten, schenkingen en huwelijkse voorwaarden. Zo zorgen we voor een fiscaal gunstige overdracht van uw vermogen naar de volgende generatie."
     }
   },
-  "CareerPage": {},
+"CareerPage": {
+    "hero": {
+      "title": "Jouw carrière bij Koeleman",
+      "subtitle": "Bij Koeleman Accountants en Belastingadviseurs geloven we in de kracht van onze mensen. We zijn op zoek naar professionals die ons team willen versterken. Ontdek hoe jij je carrière een boost kunt geven bij een toonaangevend accountantskantoor."
+    },
+    "culture": {
+      "title": "Onze cultuur",
+      "text": "Bij ons vind je een open en collegiale sfeer. We stimuleren persoonlijke groei en bieden ruimte voor initiatief. Je combineert de zekerheid bij een vast contract, met de veelzijdigheid alsof je voor je eigen cliëntenkring aan het werk bent."
+    },
+    "offerings": {
+      "title": "Wat wij bieden",
+      "offering1": {
+        "title": "Uitdagende projecten",
+        "text": "Werk aan complexe en gevarieerde opdrachten voor een diverse klantenkring."
+      },
+      "offering2": {
+        "title": "Ruimte voor ontwikkeling",
+        "text": "Volg opleidingen en cursussen om je kennis en vaardigheden te vergroten."
+      },
+      "offering3": {
+        "title": "Professionele omgeving",
+        "text": "Profiteer van de expertise van ervaren collega's en een hecht team."
+      },
+      "offering4": {
+        "title": "Aantrekkelijke arbeidsvoorwaarden",
+        "text": "Denk aan een competitief salaris, goede pensioenregeling en flexibele werktijden."
+      }
+    },
+    "vacancies": {
+      "title": "Vacatures",
+      "sr_accountant": "Senior Accountant",
+      "tax_advisor": "Belastingadviseur",
+      "jr_accountant": "Junior Assistent Accountant",
+      "view_button": "Bekijk vacature"
+    },
+    "apply": {
+      "title": "Solliciteren",
+      "text": "Ben je enthousiast geworden en wil je deel uitmaken van ons team? Stuur je cv en motivatiebrief naar ons op en wie weet zien we je snel! Neem anders contact met ons op.",
+      "button": "Solliciteer direct"
+    }
+  },
   "NewsPage": {},
   "ContactPage": {},
   "footer": {

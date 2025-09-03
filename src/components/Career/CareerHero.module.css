@@ -1,0 +1,53 @@
+/* src/components/Career/CareerHero.module.css */
+.heroSection {
+    background-color: var(--koeleman-gold-light);
+    padding: 4rem 0;
+    overflow: hidden;
+}
+
+.heroContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .heroContent {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+}
+
+.heroText {
+    text-align: left;
+}
+
+.heroTitle {
+    color: var(--koeleman-blue);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    max-width: 50ch;
+}
+
+.heroImageContainer {
+    width: 100%;
+}
+
+.heroImage {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 768px) {
+    .heroTitle {
+        font-size: 3.5rem;
+    }
+}
