@@ -1,0 +1,47 @@
+.heroSection {
+    position: relative;
+    /* Minder padding op mobiel */
+    padding: 4rem 0 3rem;
+    background-color: var(--koeleman-gold-light);
+    text-align: left;
+    overflow: hidden;
+}
+
+.heroContentContainer {
+    position: relative;
+    z-index: 2;
+}
+
+.breadcrumb {
+    color: var(--koeleman-gold);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.heroTitle {
+    /* Kleinere lettergrootte op mobiel */
+    font-size: 2.25rem;
+    color: var(--koeleman-blue);
+    max-width: 25ch;
+}
+
+.heroSubtitle {
+    margin-top: 1rem;
+    /* Kleinere lettergrootte op mobiel */
+    font-size: 1rem;
+    max-width: 60ch;
+    color: var(--text-primary);
+}
+
+/* Grotere schermen krijgen de oude waarden terug */
+@media (min-width: 768px) {
+    .heroSection {
+        padding: 6rem 0 4rem;
+    }
+    .heroTitle {
+        font-size: 3.5rem;
+    }
+    .heroSubtitle {
+        font-size: 1.125rem;
+    }
+}

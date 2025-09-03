@@ -1,0 +1,198 @@
+{
+  "header": {
+    "nav_group": "KLMN Groep",
+    "nav_services": "Diensten",
+    "nav_careers": "Werken bij",
+    "nav_news": "Inzicht & Actueel",
+    "nav_contact": "Contact",
+    "lang_nl": "Nederlands",
+    "lang_en": "English",
+    "lang_ru": "Русский",
+    "lang_zh": "简体中文"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Resultaatgericht advies, persoonlijke aandacht.",
+      "subtitle": "Wij combineren diepgaande expertise met een nuchtere, mensgerichte aanpak. Uw partner in financiële groei en stabiliteit.",
+      "cta_button": "Vraag een consult aan"
+    },
+    "services": {
+      "title": "Onze Expertise",
+      "subtitle": "Een compleet dienstenpakket voor ondernemers, dga's en administratiekantoren. Wij bieden helderheid en ondersteuning op elk financieel en juridisch vlak.",
+      "card1_title": "Accountancy & Administratie",
+      "card1_desc": "De ruggengraat van uw onderneming, accuraat en efficiënt verzorgd.",
+      "card1_item1": "Accountancy",
+      "card1_item2": "Salarisadministratie",
+      "card1_item3": "Ondersteuning Administratiekantoren",
+      "card1_item4": "Wettelijke controle",
+      "card2_title": "Fiscaal & Juridisch",
+      "card2_desc": "Zekerheid en optimalisatie binnen de kaders van wet- en regelgeving.",
+      "card2_item1": "Fiscale aangiften en advisering",
+      "card2_item2": "Juridische dienstverlening",
+      "card2_item3": "Privacy (AVG)",
+      "card3_title": "Strategisch Advies",
+      "card3_desc": "Vooruitkijken en de juiste beslissingen nemen op cruciale momenten.",
+      "card3_item1": "Bedrijfsoverdrachten",
+      "card3_item2": "Financieringsvraagstukken",
+      "card3_item3": "Estateplanning",
+      "card4_title": "Online & ICT Diensten",
+      "card4_desc": "Slimme, digitale oplossingen die uw werk makkelijker maken. Wij bieden moderne tools voor online administratie en salarisverwerking, ondersteund door onze ICT- en SAP-specialisten.",
+      "card4_link": "Ontdek onze online oplossingen →"
+    },
+    "stories": {
+      "title": "Succesverhalen van Klanten",
+      "subtitle": "Ontdek hoe wij ondernemers helpen groeien, besparen en met vertrouwen de toekomst tegemoet zien.",
+      "story1_title": "Versnelde Groei",
+      "story1_desc": "Voor een ambitieuze start-up hebben we de financiële strategie geoptimaliseerd, wat resulteerde in 20% kostenbesparing en een verdubbeling van de omzet.",
+      "story2_title": "Strategische Belastingplanning",
+      "story2_desc": "Een familiebedrijf bespaarde significant op belasting dankzij onze proactieve planning, waardoor er meer ruimte was voor investeringen.",
+      "story3_title": "Financiële Duidelijkheid",
+      "story3_desc": "We hielpen een non-profitorganisatie hun financiën te stroomlijnen, wat zorgde voor compleet inzicht en betere controle over de budgetten."
+    },
+    "cta": {
+      "title": "Klaar om de controle over uw financiën te nemen?",
+      "subtitle": "Neem vandaag nog contact met ons op om uw financiële behoeften te bespreken en te ontdekken hoe wij u kunnen helpen uw doelen te bereiken.",
+      "button": "Vraag een Gratis Consult aan"
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "Over Koeleman Groep",
+      "subtitle": "Uw betrouwbare partner in accountancy en advies, sinds 1970."
+    },
+    "story": {
+      "title": "Ons Verhaal",
+      "paragraph1": "Koeleman accountants & belastingadviseurs is opgericht in 1970 met een duidelijke missie: ondernemers voorzien van helder, praktisch en resultaatgericht financieel advies. Wat begon als een klein kantoor in Hilversum, is uitgegroeid tot een veelzijdige groep van specialisten.",
+      "paragraph2": "Door de jaren heen zijn we trouw gebleven aan onze kernwaarden: professionaliteit, benaderbaarheid en een nuchtere aanpak. We geloven in persoonlijke relaties en fungeren als een verlengstuk van uw team. Vandaag de dag combineren we decennia aan ervaring met de nieuwste technologie om u de best mogelijke service te bieden."
+    },
+    "brands": {
+      "title": "Onze Merken",
+      "subtitle": "Koeleman Groep bestaat uit een collectief van gespecialiseerde bedrijven, elk met een eigen focus, maar verenigd in kwaliteit en expertise.",
+      "brand1": "Koeleman accountants & belastingadviseurs",
+      "brand2": "Koeleman voor de zorg",
+      "brand3": "Countvision",
+      "brand4": "AIMS",
+      "brand5": "GCS",
+      "brand6": "PSCA",
+      "brand7": "NEVB",
+      "brand8": "Koeleman Sustainability & Subsidy Compliance",
+      "brand9": "KLMN Audit"
+    },
+    "team": {
+      "title": "Maak Kennis Met Ons Team",
+      "subtitle": "De experts die elke dag voor u klaarstaan. Een combinatie van ervaring, specialisme en persoonlijke betrokkenheid.",
+      "role_director": "Directie",
+      "role_senior_accountant": "Senior Accountant",
+      "role_hr_manager": "Hr manager"
+    },
+    "values": {
+      "title": "Onze Kernwaarden",
+      "subtitle": "De principes die de basis vormen van alles wat we doen.",
+      "value1_title": "Professioneel",
+      "value1_desc": "Onwrikbare expertise en een detailgerichte aanpak voor structuur en zekerheid.",
+      "value2_title": "Benaderbaar",
+      "value2_desc": "Heldere taal en een open deur. Wij zijn uw laagdrempelige sparringpartner.",
+      "value3_title": "Nuchter",
+      "value3_desc": "Praktisch, realistisch en met beide benen op de grond. We spreken uw taal.",
+      "value4_title": "Betrokken",
+      "value4_desc": "We investeren in een duurzame relatie en voelen ons oprecht onderdeel van uw succes."
+    }
+  },
+  "ServicesPage": {
+    "hero": {
+      "title": "Onze Expertise",
+      "subtitle": "Een compleet dienstenpakket voor ondernemers, dga's en administratiekantoren."
+    },
+    "cards": {
+      "accountancy": {
+        "title": "Accountancy & Administratie",
+        "description": "De ruggengraat van uw onderneming, accuraat en efficiënt verzorgd.",
+        "link": "Lees meer"
+      },
+      "tax_legal": {
+        "title": "Fiscaal & Juridisch",
+        "description": "Zekerheid en optimalisatie binnen de kaders van wet- en regelgeving.",
+        "link": "Lees meer"
+      },
+      "strategic": {
+        "title": "Strategisch Advies",
+        "description": "Vooruitkijken en de juiste beslissingen nemen op cruciale momenten.",
+        "link": "Lees meer"
+      },
+      "ict": {
+        "title": "Online & ICT Diensten",
+        "description": "Slimme, digitale oplossingen die uw werk makkelijker maken.",
+        "link": "Lees meer"
+      }
+    }
+  },
+  "AccountancyServicePage": {
+    "hero": {
+      "title": "Accountancy & Administratie",
+      "subtitle": "De ruggengraat van uw onderneming. Wij zorgen voor een accuraat, efficiënt en volledig inzicht in uw financiële huishouding, zodat u zich kunt richten op wat echt telt: ondernemen."
+    },
+    "accountancy": {
+      "title": "Accountancy",
+      "text": "Of het nu gaat om het samenstellen van jaarrekeningen, het inrichten van uw administratie of het geven van financieel advies, onze accountants staan voor u klaar. We vertalen complexe cijfers naar heldere inzichten en praktische aanbevelingen, altijd met oog voor uw specifieke situatie en doelstellingen."
+    },
+    "payroll": {
+      "title": "Salarisadministratie",
+      "text": "Een correcte en tijdige salarisverwerking is cruciaal. Onze specialisten nemen deze zorg volledig uit handen. Van loonstroken en aangiften loonheffingen tot advies over arbeidsvoorwaarden en sociale verzekeringen; wij garanderen een vlekkeloze en AVG-conforme afhandeling."
+    },
+    "support": {
+      "title": "Ondersteuning Administratiekantoren",
+      "text": "Wij fungeren als de specialistische achterban voor administratie- en accountantskantoren. Heeft u behoefte aan extra capaciteit, specifieke expertise of een sparringpartner voor complexe vraagstukken? Wij bieden flexibele ondersteuning op maat, zodat u uw klanten optimaal kunt bedienen."
+    },
+    "audit": {
+      "title": "Wettelijke controle",
+      "text": "Voor organisaties die controleplichtig zijn, voeren wij de wettelijke controle van de jaarrekening uit. Onze auditors hanteren een risicogerichte aanpak, waarbij we niet alleen kijken naar de cijfers, maar ook naar de processen erachter. Dit levert niet alleen een controleverklaring op, maar ook waardevolle inzichten voor uw organisatie."
+    }
+  },
+  "TaxLegalServicePage": {
+    "hero": {
+      "title": "Fiscaal & Juridisch",
+      "subtitle": "Zekerheid en optimalisatie binnen de kaders van wet- en regelgeving. Onze experts navigeren u door het complexe landschap van fiscale en juridische vraagstukken."
+    },
+    "tax": {
+      "title": "Fiscale Aangiften en Advisering",
+      "text": "Van vennootschapsbelasting tot btw en van inkomstenbelasting tot schenk- en erfbelasting; wij verzorgen al uw fiscale aangiften accuraat en op tijd. Daarnaast adviseren we proactief over fiscale optimalisatie, zodat u nooit meer betaalt dan nodig is en alle kansen benut."
+    },
+    "legal": {
+      "title": "Juridische Dienstverlening",
+      "text": "Ondernemen brengt juridische uitdagingen met zich mee. Onze juristen adviseren en ondersteunen u bij het opstellen en beoordelen van contracten, algemene voorwaarden, en bij arbeidsrechtelijke kwesties. Wij bieden praktische, heldere oplossingen die uw onderneming beschermen."
+    },
+    "privacy": {
+      "title": "Privacy (AVG)",
+      "text": "De Algemene Verordening Gegevensbescherming (AVG) stelt strenge eisen aan hoe u met persoonsgegevens omgaat. Wij helpen u om volledig compliant te zijn. Van het opstellen van een privacyverklaring en verwerkersovereenkomsten tot het uitvoeren van een data protection impact assessment (DPIA)."
+    }
+  },
+  "StrategicServicePage": {
+    "hero": {
+      "title": "Strategisch Advies",
+      "subtitle": "Vooruitkijken en de juiste beslissingen nemen op cruciale momenten. Wij fungeren als uw strategische partner die meedenkt over de toekomst van uw onderneming en vermogen."
+    },
+    "transfers": {
+      "title": "Bedrijfsoverdrachten",
+      "text": "Een bedrijfsoverdracht, of het nu binnen de familie is of aan een externe partij, is een complex en ingrijpend proces. Wij begeleiden u van begin tot eind: van de waardebepaling en het vinden van de juiste koper tot de onderhandelingen en de juridische afwikkeling. Ons doel is een soepele overgang die de continuïteit van de onderneming waarborgt en uw belangen veiligstelt."
+    },
+    "financing": {
+      "title": "Financieringsvraagstukken",
+      "text": "Groeiplannen, een investering in nieuw materieel of een herstructurering van uw huidige financiering? Wij helpen u de juiste financieringsmix te vinden. We analyseren uw behoefte, stellen een gedegen financieringsmemorandum op en benaderen ons netwerk van banken en alternatieve financiers om de beste voorwaarden voor u te realiseren."
+    },
+    "estate": {
+      "title": "Estate Planning",
+      "text": "Een goede planning van uw nalatenschap zorgt voor rust en duidelijkheid, zowel voor u als voor uw nabestaanden. Wij brengen uw vermogen en wensen in kaart en adviseren over de optimale structurering via testamenten, schenkingen en huwelijkse voorwaarden. Zo zorgen we voor een fiscaal gunstige overdracht van uw vermogen naar de volgende generatie."
+    }
+  },
+  "CareerPage": {},
+  "NewsPage": {},
+  "ContactPage": {},
+  "footer": {
+    "nav_title": "Navigatie",
+    "contact_title": "Contact",
+    "social_title": "Volg Ons",
+    "copyright": "Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden"
+  }
+}

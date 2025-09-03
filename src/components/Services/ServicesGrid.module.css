@@ -1,0 +1,26 @@
+.servicesSection {
+    padding: 4rem 0;
+    background-color: var(--koeleman-white);
+    /* Voorkom een horizontale scrollbar wanneer de kaarten van buiten het scherm animeren */
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    .servicesSection {
+        padding: 6rem 0;
+    }
+}
+
+/* De oude grid-stijlen zijn vervangen door flexbox om een verticale lijst te maken */
+.servicesList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .servicesList {
+        /* Vergroot de ruimte tussen de kaarten op grotere schermen */
+        gap: 4rem;
+    }
+}

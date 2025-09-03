@@ -1,0 +1,123 @@
+/* Een nieuwe wrapper-klasse om de uitlijning en breedte te beheren */
+.cardWrapper {
+    width: 100%;
+    /* ADDED: Position relative is needed for the background element */
+    position: relative;
+    /* De animatiestijlen van alternating-animations.css worden hierop toegepast */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--koeleman-white);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    width: 100%; /* Zorgt ervoor dat de kaart de volledige breedte van de wrapper inneemt */
+    
+    /* ADDED: Ensure the card stays above the gradient element */
+    position: relative;
+    z-index: 1;
+}
+
+/* --- UPDATED STYLES FOR THE GRADIENT ELEMENT ---
+*/
+.gradientElement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* CHANGED: Using a large, fixed size for a consistent circular glow */
+    width: 500px;
+    height: 500px; 
+    z-index: 0; /* Place it behind the card */
+    
+    /* CHANGED: Stronger, more visible gradient */
+    /* NOTE: Replace '206, 169, 83' with the RGB values of your '--koeleman-gold' variable if different */
+    background: radial-gradient(circle, rgba(206, 169, 83, 0.35) 0%, rgba(206, 169, 83, 0) 65%);
+
+    /* ADDED: A blur filter creates a much softer, cloud-like effect */
+    filter: blur(40px);
+    
+    /* Initial state for the animation (invisible and smaller) */
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.7);
+
+    /* Animation transition properties - slightly longer for a smoother feel */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* CHANGED: This is the new, simpler, and more reliable way to trigger the animation.
+*/
+.gradientElement.isVisible {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+/* --- END OF NEW STYLES --- */
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+}
+
+.cardImage {
+    height: 10rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.cardContent {
+    padding: 1.25rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContent h3 {
+    color: var(--koeleman-blue);
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardContent p {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.cardLink {
+    font-weight: 700;
+    color: var(--koeleman-gold);
+    align-self: flex-start;
+}
+
+/* Stijlen voor grotere schermen */
+@media (min-width: 768px) {
+    /* De kaarten nemen niet de volledige breedte in op desktop */
+    .cardWrapper {
+        width: 65%;
+        max-width: 700px;
+    }
+
+    /* Klasse om de kaart links uit te lijnen in de flex-container */
+    .alignLeft {
+        align-self: flex-start;
+    }
+
+    /* Klasse om de kaart rechts uit te lijnen in de flex-container */
+    .alignRight {
+        align-self: flex-end;
+    }
+
+    .cardImage {
+        height: 15rem; /* Hogere afbeelding op desktop */
+    }
+    .cardContent {
+        padding: 1.5rem;
+    }
+    .cardContent h3 {
+        font-size: 1.5rem;
+    }
+}

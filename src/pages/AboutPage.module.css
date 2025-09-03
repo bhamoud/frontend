@@ -1,0 +1,183 @@
+/* --- src/components/Pages/About.module.css --- */
+
+/* --- Hero Sectie --- */
+.heroSection {
+    position: relative;
+    height: 50vh;
+    min-height: 350px;
+    background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.heroOverlay {
+    position: absolute;
+    inset: 0;
+    background-color: var(--koeleman-gold-light);
+    opacity: 0.7;
+}
+.heroContentContainer {
+    position: relative;
+    color: var(--koeleman-white);
+}
+.heroTitle {
+    font-size: 2.5rem;
+    color: var(--koeleman-blue);
+}
+@media (min-width: 768px) { .heroTitle { font-size: 3.5rem; } }
+.heroSubtitle {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--koeleman-blue);
+}
+
+/* --- Algemene Sectie Stijlen --- */
+.storySection, .brandsSection, .teamSection, .valuesSection {
+    padding: 4rem 0;
+}
+@media (min-width: 768px) {
+    .storySection, .brandsSection, .teamSection, .valuesSection {
+        padding: 6rem 0;
+    }
+}
+.sectionHeader {
+    text-align: center;
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+.sectionHeader h2 {
+    font-size: 2.25rem;
+    color: var(--koeleman-blue);
+}
+@media (min-width: 768px) { .sectionHeader h2 { font-size: 2.5rem; } }
+.sectionHeader p {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+}
+
+/* --- Ons Verhaal Sectie --- */
+.storySection {
+    background-color: var(--koeleman-white);
+}
+.storyContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .storyContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.storyImage img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+}
+.storyText h2 {
+    color: var(--koeleman-blue);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.storyText p {
+    margin-bottom: 1rem;
+}
+
+/* --- Brands Sectie --- */
+.brandsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+@media (min-width: 768px) {
+    .brandsGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.brandCard {
+    background-color: var(--koeleman-white);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--koeleman-blue);
+    border: 1px solid var(--koeleman-gold-light);
+    transition: background-color 0.3s, color 0.3s;
+}
+.brandCard:hover {
+    background-color: var(--koeleman-gold);
+    color: var(--koeleman-white);
+}
+
+/* --- Team Sectie --- */
+.teamSection {
+    background-color: var(--koeleman-white);
+}
+.teamGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+@media (min-width: 1024px) {
+    .teamGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.teamCard {
+    text-align: center;
+}
+.teamImage {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 9999px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+}
+.teamCard h3 {
+    color: var(--koeleman-blue);
+    font-size: 1.25rem;
+    margin: 0.5rem 0 0.25rem 0;
+}
+.teamCard p {
+    color: var(--koeleman-gold);
+    font-size: 0.875rem;
+}
+
+/* --- Kernwaarden Sectie --- */
+.valuesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+@media (min-width: 768px) {
+    .valuesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .valuesGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.valueCard {
+    background-color: var(--koeleman-gold-light);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+.valueCard h3 {
+    color: var(--koeleman-blue);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}

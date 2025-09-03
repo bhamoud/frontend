@@ -1,0 +1,113 @@
+{
+  "header": {
+    "nav_group": "KLMN Group",
+    "nav_services": "Services",
+    "nav_careers": "Careers",
+    "nav_news": "Insights & Updates",
+    "nav_contact": "Contact",
+    "lang_nl": "Nederlands",
+    "lang_en": "English",
+    "lang_ru": "Русский",
+    "lang_zh": "简体中文"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Result-driven advice, personal attention.",
+      "subtitle": "We combine in-depth expertise with a down-to-earth, people-oriented approach. Your partner in financial growth and stability.",
+      "cta_button": "Request a consultation"
+    },
+    "services": {
+      "title": "Our Expertise",
+      "subtitle": "A complete range of services for entrepreneurs, directors, and administrative offices. We provide clarity and support in all financial and legal matters.",
+      "card1_title": "Accountancy & Administration",
+      "card1_desc": "The backbone of your company, handled accurately and efficiently.",
+      "card1_item1": "Accountancy",
+      "card1_item2": "Payroll Administration",
+      "card1_item3": "Support for Administrative Offices",
+      "card1_item4": "Statutory Audit",
+      "card2_title": "Tax & Legal",
+      "card2_desc": "Security and optimization within the framework of laws and regulations.",
+      "card2_item1": "Tax returns and advice",
+      "card2_item2": "Legal services",
+      "card2_item3": "Privacy (GDPR)",
+      "card3_title": "Strategic Advice",
+      "card3_desc": "Looking ahead and making the right decisions at crucial moments.",
+      "card3_item1": "Business Transfers",
+      "card3_item2": "Financing Issues",
+      "card3_item3": "Estate Planning",
+      "card4_title": "Online & ICT Services",
+      "card4_desc": "Smart, digital solutions that make your work easier. We offer modern tools for online administration and payroll processing, supported by our ICT and SAP specialists.",
+      "card4_link": "Discover our online solutions →"
+    },
+    "stories": {
+      "title": "Client Success Stories",
+      "subtitle": "Discover how we help entrepreneurs grow, save, and face the future with confidence.",
+      "story1_title": "Accelerated Growth",
+      "story1_desc": "For an ambitious start-up, we optimized the financial strategy, resulting in 20% cost savings and a doubling of revenue.",
+      "story2_title": "Strategic Tax Planning",
+      "story2_desc": "A family business saved significantly on taxes thanks to our proactive planning, creating more room for investments.",
+      "story3_title": "Financial Clarity",
+      "story3_desc": "We helped a non-profit organization streamline their finances, providing complete insight and better control over their budgets."
+    },
+    "cta": {
+      "title": "Ready to take control of your finances?",
+      "subtitle": "Contact us today to discuss your financial needs and discover how we can help you achieve your goals.",
+      "button": "Request a Free Consultation"
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "About Koeleman Group",
+      "subtitle": "Your reliable partner in accountancy and advisory, since 1970."
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Koeleman accountants & tax advisors was founded in 1970 with a clear mission: to provide entrepreneurs with clear, practical, and result-oriented financial advice. What started as a small office in Hilversum has grown into a versatile group of specialists.",
+      "paragraph2": "Over the years, we have remained true to our core values: professionalism, approachability, and a down-to-earth approach. We believe in personal relationships and act as an extension of your team. Today, we combine decades of experience with the latest technology to offer you the best possible service."
+    },
+    "brands": {
+      "title": "Our Brands",
+      "subtitle": "Koeleman Group consists of a collective of specialized companies, each with its own focus, but united in quality and expertise.",
+      "brand1": "Koeleman accountants & tax advisors",
+      "brand2": "Koeleman for healthcare",
+      "brand3": "Countvision",
+      "brand4": "AIMS",
+      "brand5": "GCS",
+      "brand6": "PSCA",
+      "brand7": "NEVB",
+      "brand8": "Koeleman Sustainability & Subsidy Compliance",
+      "brand9": "KLMN Audit"
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "The experts who are ready to assist you every day. A combination of experience, specialism, and personal commitment.",
+      "role_director": "Director",
+      "role_senior_accountant": "Senior Accountant",
+      "role_hr_manager": "HR Manager"
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that form the basis of everything we do.",
+      "value1_title": "Professional",
+      "value1_desc": "Unwavering expertise and a detail-oriented approach for structure and certainty.",
+      "value2_title": "Approachable",
+      "value2_desc": "Clear language and an open door. We are your accessible sparring partner.",
+      "value3_title": "Down-to-earth",
+      "value3_desc": "Practical, realistic, and with both feet on the ground. We speak your language.",
+      "value4_title": "Committed",
+      "value4_desc": "We invest in a sustainable relationship and genuinely feel part of your success."
+    }
+  },
+  "ServicesPage": {},
+  "CareerPage": {},
+  "NewsPage": {},
+  "ContactPage": {},
+  "footer": {
+    "nav_title": "Navigation",
+    "contact_title": "Contact",
+    "social_title": "Follow Us",
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  }
+}

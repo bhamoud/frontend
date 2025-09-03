@@ -1,0 +1,135 @@
+/* --- src/components/HeaderFooter/Header.module.css --- */
+.header {
+    background-color: rgba(25, 50, 105, 0.95);
+    backdrop-filter: blur(4px);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+}
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+}
+.logoLink {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+}
+.logoImg { height: 4rem; padding-bottom: .1rem;}
+.logoTextContainer {
+    display: flex;
+    flex-direction: column;
+}
+.logoTitle {
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: .1cap;
+    color: var(--koeleman-white);
+    line-height: 1; 
+    margin: 0;
+}
+.logoSubtitle {
+    font-size: 0.75rem;
+    color: var(--koeleman-gold-light);
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    padding-top: .2rem;
+    margin: 0;
+}
+.navDesktop {
+    display: none;
+}
+@media (min-width: 768px) {
+    .navDesktop {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
+.navLink {
+    color: var(--koeleman-white);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.navLink:hover { color: var(--koeleman-gold); }
+
+/* Stijlen voor de taalkiezer */
+.langSelector {
+    position: relative;
+    margin-left: 1rem;
+}
+.langButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--koeleman-white);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease-in-out;
+}
+.langButton:hover {
+    color: var(--koeleman-gold);
+}
+.langIcon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.langDropdown {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    background-color: var(--koeleman-white);
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+    z-index: 60;
+    overflow: hidden;
+    min-width: 120px;
+}
+/* AANGEPAST: Stijlen voor de taal-knoppen */
+.langItem {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: background-color 0.2s ease-in-out;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+}
+.langItem:hover {
+    background-color: var(--koeleman-background);
+}
+
+.mobileMenuContainer { display: block; }
+@media (min-width: 768px) { .mobileMenuContainer { display: none; } }
+.mobileMenuButton {
+    background: none;
+    border: none;
+    color: var(--koeleman-white);
+    cursor: pointer;
+}
+.menuIcon { width: 1.5rem; height: 1.5rem; }
+.mobileMenu {
+    background-color: var(--koeleman-blue);
+    border-top: 1px solid rgba(158, 138, 94, 0.2);
+}
+.mobileNavLink {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    color: var(--koeleman-white);
+    text-decoration: none;
+}
+.mobileNavLink:hover { background-color: rgba(255, 255, 255, 0.1); }

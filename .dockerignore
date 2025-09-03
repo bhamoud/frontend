@@ -1,0 +1,17 @@
+# Dependencies worden in de container geïnstalleerd
+node_modules
+
+# Build output
+dist
+.vite
+
+# Docker bestanden
+Dockerfile
+docker-compose.yml
+
+# Git
+.git
+.gitignore
+
+# Logs
+npm-debug.log*

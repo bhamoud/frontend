@@ -1,0 +1,12 @@
+services:
+  frontend:
+    build: .
+    container_name: koeleman_react_app
+    # Terug naar de standaard en meest betrouwbare poort-koppeling
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    stdin_open: true
+    tty: true

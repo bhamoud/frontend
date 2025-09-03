@@ -1,0 +1,47 @@
+/* --- src/components/Home/CTA.module.css --- */
+.ctaSection {
+    position: relative;
+    background-color: var(--koeleman-background);
+    padding-top: 4rem;
+    padding-bottom: 8rem; /* Ruimte voor de wave */
+}
+@media (min-width: 768px) {
+    .ctaSection {
+        padding-top: 6rem;
+        padding-bottom: 10rem;
+    }
+}
+.ctaContainer {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.ctaTitle {
+    font-size: 2rem; /* 32px */
+    color: var(--koeleman-blue);
+}
+@media (min-width: 768px) { .ctaTitle { font-size: 2.25rem; } } /* 36px */
+.ctaSubtitle {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    max-width: 42rem; /* 672px */
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-primary);
+}
+.ctaButton {
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: var(--koeleman-gold);
+    color: var(--koeleman-white);
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.ctaButton:hover {
+    transform: scale(1.05);
+    background-color: #8a7651; /* Donkerder goud */
+}

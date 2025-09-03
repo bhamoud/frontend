@@ -1,0 +1,59 @@
+/* --- src/components/Home/SuccessStories.module.css --- */
+.storiesSection {
+    position: relative;
+    background-color: var(--koeleman-gold-light);
+}
+
+.waveUpWrapper {
+    /* Verplaatst de wave 1px omhoog om de gap te dichten */
+    transform: translateY(-1px);
+}
+
+.storiesContainer { 
+    padding-top: 3rem;
+    position: relative; 
+    z-index: 2; 
+}
+.sectionHeader {
+    text-align: center;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+.sectionTitle {
+    font-size: 2.25rem;
+    color: var(--koeleman-blue);
+}
+@media (min-width: 768px) { .sectionTitle { font-size: 2.5rem; } }
+.sectionSubtitle {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    color: var(--text-primary);
+}
+.storiesGrid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+@media (min-width: 768px) { .storiesGrid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .storiesGrid { grid-template-columns: repeat(3, 1fr); } }
+.storyCard {
+    background-color: var(--koeleman-white);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.storyCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+}
+.storyImage {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+.storyContent { padding: 1.5rem; }
+.storyTitle { font-size: 1.25rem; color: var(--koeleman-blue); }
+.storyDescription { margin-top: 0.5rem; font-size: 0.875rem; color: var(--text-primary); }
+

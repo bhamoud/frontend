@@ -1,0 +1,50 @@
+/* --- src/index.css --- */
+
+/* --- Globale Variabelen en Stijlen --- */
+:root {
+    --primary-color: #193269;
+    --secondary-color: #9E8A5E;
+    --text-primary: #374151;
+    --text-secondary: #6b7280;
+    --koeleman-blue: #193269;
+    --koeleman-gold: #9E8A5E;
+    --koeleman-gold-light: #ECE6DB;
+    --koeleman-white: #FFFFFF;
+    --koeleman-background: #F9FAFB;
+}
+
+/* --- AANGEPAST: Globale Fix voor Layout en Scrolling --- */
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--text-primary);
+    background-color: var(--koeleman-background);
+    margin: 0;
+    line-height: 1.6;
+    /* Voorkomt horizontaal scrollen */
+    overflow-x: hidden;
+}
+
+.font-prata {
+    font-family: 'Prata', serif;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media (min-width: 640px) { .container { max-width: 640px; } }
+@media (min-width: 768px) { .container { max-width: 768px; } }
+@media (min-width: 1024px) { .container { max-width: 1024px; } }
+@media (min-width: 1280px) { .container { max-width: 1280px; } }

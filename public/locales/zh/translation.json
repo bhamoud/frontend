@@ -1,0 +1,121 @@
+{
+  "header": {
+    "nav_group": "KLMN 集团",
+    "nav_services": "服务",
+    "nav_careers": "招聘",
+    "nav_news": "洞察与动态",
+    "nav_contact": "联系我们",
+    "lang_nl": "Nederlands",
+    "lang_en": "English",
+    "lang_ru": "Русский",
+    "lang_zh": "简体中文"
+  },
+  "HomePage": {
+    "hero": {
+      "title": "结果导向的建议，个性化的关注。",
+      "subtitle": "我们将深厚的专业知识与务实、以人为本的方法相结合。您在财务增长和稳定方面的合作伙伴。",
+      "cta_button": "请求咨询"
+    },
+    "services": {
+      "title": "我们的专业领域",
+      "subtitle": "为企业家、董事和行政办公室提供全方位的服务。我们在所有财务和法律事务上提供清晰的指导和支持。",
+      "card1_title": "会计与行政管理",
+      "card1_desc": "您公司的支柱，准确高效地处理。",
+      "card1_item1": "会计服务",
+      "card1_item2": "薪资管理",
+      "card1_item3": "行政办公室支持",
+      "card1_item4": "法定审计",
+      "card2_title": "税务与法律",
+      "card2_desc": "在法律法规框架内的安全与优化。",
+      "card2_item1": "税务申报与咨询",
+      "card2_item2": "法律服务",
+      "card2_item3": "隐私保护 (GDPR)",
+      "card3_title": "战略咨询",
+      "card3_desc": "在关键时刻展望未来并做出正确决策。",
+      "card3_item1": "业务转让",
+      "card3_item2": "融资问题",
+      "card3_item3": "遗产规划",
+      "card4_title": "在线与信息通信技术服务",
+      "card4_desc": "智能化的数字解决方案，让您的工作更轻松。我们提供现代化的在线管理和薪资处理工具，并由我们的信息通信技术和SAP专家提供支持。",
+      "card4_link": "了解我们的在线解决方案 →"
+    },
+    "stories": {
+      "title": "客户成功案例",
+      "subtitle": "了解我们如何帮助企业家成长、节约成本并满怀信心地展望未来。",
+      "story1_title": "加速增长",
+      "story1_desc": "我们为一家雄心勃勃的初创公司优化了财务战略，使其成本降低了20%，收入翻了一番。",
+      "story2_title": "战略性税务规划",
+      "story2_desc": "通过我们积极主动的规划，一个家族企业在税务上节省了大量资金，为投资创造了更多空间。",
+      "story3_title": "财务清晰化",
+      "story3_desc": "我们帮助一个非营利组织简化了财务流程，实现了全面的洞察和对预算的更好控制。"
+    },
+    "cta": {
+      "title": "准备好掌控您的财务了吗？",
+      "subtitle": "立即联系我们，讨论您的财务需求，了解我们如何帮助您实现目标。",
+      "button": "请求免费咨询"
+    }
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "关于 Koeleman 集团",
+      "subtitle": "自1970年以来，您在会计和咨询领域值得信赖的合作伙伴。"
+    },
+    "story": {
+      "title": "我们的故事",
+      "paragraph1": "Koeleman 会计师与税务顾问公司成立于1970年，其使命明确：为企业家提供清晰、实用且以结果为导向的财务建议。从希尔弗瑟姆的一个小办公室开始，现已发展成为一个多元化的专家团队。",
+      "paragraph2": "多年来，我们始终坚守我们的核心价值观：专业、平易近人和务实。我们相信个人关系的力量，并作为您团队的延伸。如今，我们将数十年的经验与最新技术相结合，为您提供最好的服务。"
+    },
+    "brands": {
+      "title": "我们的品牌",
+      "subtitle": "Koeleman 集团由多家专业公司组成，每家公司各有侧重，但在质量和专业知识上保持统一。",
+      "brand1": "Koeleman 会计师与税务顾问",
+      "brand2": "Koeleman 医疗保健服务",
+      "brand3": "Countvision",
+      "brand4": "AIMS",
+      "brand5": "GCS",
+      "brand6": "PSCA",
+      "brand7": "NEVB",
+      "brand8": "Koeleman 可持续发展与补贴合规",
+      "brand9": "KLMN 审计"
+    },
+    "team": {
+      "title": "认识我们的团队",
+      "subtitle": "每天为您服务的专家团队。经验、专业和个人承诺的结合。",
+      "role_director": "董事",
+      "role_senior_accountant": "高级会计师",
+      "role_hr_manager": "人力资源经理"
+    },
+    "values": {
+      "title": "我们的核心价值观",
+      "subtitle": "构成我们一切工作基础的原则。",
+      "value1_title": "专业",
+      "value1_desc": "坚定不移的专业知识和注重细节的方法，确保结构和确定性。",
+      "value2_title": "平易近人",
+      "value2_desc": "清晰的语言和敞开的大门。我们是您易于接触的合作伙伴。",
+      "value3_title": "务实",
+      "value3_desc": "实用、现实、脚踏实地。我们与您使用同一种语言。",
+      "value4_title": "投入",
+      "value4_desc": "我们投资于可持续的关系，并真诚地将自己视为您成功的一部分。"
+    }
+  },
+  "ServicesPage":{
+
+  },
+  "CareerPage":{
+
+  },
+  "NewsPage":{
+
+  },
+  "ContactPage":{
+
+  },
+  "footer": {
+    "nav_title": "导航",
+    "contact_title": "联系我们",
+    "social_title": "关注我们",
+    "copyright": "版权所有。",
+    "privacy": "隐私政策",
+    "terms": "条款与条件"
+  }
+}

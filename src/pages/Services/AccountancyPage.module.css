@@ -1,0 +1,96 @@
+/* --- Hero Sectie --- */
+.heroSection {
+    position: relative;
+    padding: 6rem 0 4rem;
+    background-color: var(--koeleman-gold-light);
+    text-align: left;
+    overflow: hidden;
+}
+
+.heroContentContainer {
+    position: relative;
+    z-index: 2;
+}
+
+.breadcrumb {
+    color: var(--koeleman-gold);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.heroTitle {
+    font-size: 2.5rem;
+    color: var(--koeleman-blue);
+    max-width: 25ch; /* Zorgt voor een mooie regeleinde */
+}
+
+@media (min-width: 768px) {
+    .heroTitle {
+        font-size: 3.5rem;
+    }
+}
+
+.heroSubtitle {
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    max-width: 60ch;
+    color: var(--text-primary);
+}
+
+/* --- Hoofdinhoud --- */
+.mainContent {
+    padding: 4rem 0;
+    background-color: var(--koeleman-white);
+}
+
+@media (min-width: 768px) {
+    .mainContent {
+        padding: 6rem 0;
+    }
+}
+
+/* --- Content Sectie --- */
+.contentSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .contentSection {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 6rem;
+    }
+}
+
+.contentSection:last-child {
+    margin-bottom: 0;
+}
+
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+}
+
+.textContainer h2 {
+    color: var(--koeleman-blue);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.textContainer p {
+    line-height: 1.6;
+}
+
+/* Omgekeerde layout voor afwisseling */
+.contentSection.reverse .imageContainer {
+    order: 2;
+}
+
+.contentSection.reverse .textContainer {
+    order: 1;
+}

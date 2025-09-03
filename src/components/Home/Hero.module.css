@@ -1,0 +1,54 @@
+/* --- src/components/Home/Hero.module.css --- */
+.heroSection {
+    position: relative;
+    height: 80vh;
+    min-height: 600px;
+    background-image: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2158&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+.heroOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(236, 229, 219, 0.95) 0%, rgba(236, 229, 219, 0.7) 40%, rgba(236, 229, 219, 0.1) 100%);
+}
+.heroContentContainer {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.heroTextContent {
+    width: 100%;
+}
+@media (min-width: 768px) { .heroTextContent { width: 60%; } }
+@media (min-width: 1024px) { .heroTextContent { width: 50%; } }
+.heroTitle {
+    font-size: 2.25rem; /* 36px */
+    color: var(--koeleman-blue);
+    line-height: 1.2;
+}
+@media (min-width: 768px) { .heroTitle { font-size: 3rem; } } /* 48px */
+@media (min-width: 1024px) { .heroTitle { font-size: 3.75rem; } } /* 60px */
+.heroSubtitle {
+    margin-top: 1.5rem; /* 24px */
+    font-size: 1.125rem; /* 18px */
+    max-width: 36rem; /* 576px */
+    color: var(--text-primary);
+}
+.heroCtaButton {
+    margin-top: 2rem; /* 32px */
+    display: inline-block;
+    background-color: var(--koeleman-blue);
+    color: var(--koeleman-white);
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.heroCtaButton:hover {
+    transform: scale(1.05);
+    background-color: #142a57; /* Darker blue */
+}

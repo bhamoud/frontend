@@ -1,0 +1,10 @@
+See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+
+Allow all web crawlers access to the siteUser-agent: 
+*Allow: /
+
+Disallow web crawlers from accessing the internal HR dashboard
+Disallow: /hr-dashboard/
+
+Location of the XML sitemap
+Sitemap: https://www.google.com/search?q=https://www.accountantskoeleman.nl/sitemap.xml

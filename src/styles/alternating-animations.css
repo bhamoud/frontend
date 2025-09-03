@@ -1,0 +1,20 @@
+/* Fade in from left animation */
+.animate-from-left {
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Fade in from right animation */
+.animate-from-right {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* The state when the element is visible */
+.animate-from-left.is-visible,
+.animate-from-right.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}

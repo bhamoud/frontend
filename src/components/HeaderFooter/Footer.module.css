@@ -1,0 +1,111 @@
+/* --- src/components/HeaderFooter/Footer.module.css --- */
+.footer {
+    background-color: var(--koeleman-blue);
+    color: var(--koeleman-gold-light);
+    padding-top: 1rem;
+}
+.footerContainer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footerGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: left;
+}
+@media (min-width: 768px) { .footerGrid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .footerGrid { grid-template-columns: repeat(4, 1fr); } }
+.footerBranding {
+    padding-top: 1.8rem;
+    grid-column: span 1 / span 1;
+}
+@media (min-width: 768px) { .footerBranding { grid-column: span 2 / span 2; } }
+@media (min-width: 1024px) { .footerBranding { grid-column: span 1 / span 1; } }
+.footerLogoLink {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.footerLogoImg { 
+    height: 2.5rem; 
+    padding-bottom: .3rem;
+}
+
+/* NIEUW: Container voor de tekst */
+.footerLogoTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footerLogoTitle { 
+    font-size: 1.25rem; 
+    color: var(--koeleman-white); 
+    /* AANGEPAST: Marges en regelafstand gecorrigeerd */
+    line-height: 1; 
+    margin: 0;
+}
+.footerLogoSubtitle { 
+    font-size: 0.75rem; 
+    color: var(--koeleman-gold-light); 
+    font-weight: 300; 
+    letter-spacing: 0.05em; 
+    padding-top: .2rem;
+    margin: 0;
+}
+.morisonLogo { margin-top: 1rem; height: 2.5rem; }
+.footerHeading {
+    font-weight: 700;
+    color: var(--koeleman-white);
+    letter-spacing: 0.05em;
+}
+.footerLinkList {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+}
+.footerLink {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.footerLink:hover { color: var(--koeleman-gold); }
+.socialLinks {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.socialLink {
+    color: #9ca3af;
+    transition: color 0.2s ease-in-out;
+}
+.socialLink:hover { color: var(--koeleman-gold); }
+.socialIcon { width: 1.5rem; height: 1.5rem; }
+.footerBottom {
+    padding-top: 2rem;
+    border-top: 1px solid #4b5563;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.875rem;
+}
+@media (min-width: 768px) { .footerBottom { flex-direction: row; } }
+.footerBottom p { color: #9ca3af; }
+.footerLegalLinks {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+@media (min-width: 768px) { .footerLegalLinks { margin-top: 0; } }
+
+.slogan {
+    font-style: italic;
+}
